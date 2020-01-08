@@ -1,0 +1,47 @@
+{
+  "description": "NativeScript UI ListView Demo App",
+  "license": "SEE LICENSE IN LICENSE.md",
+  "readme": "README.md",
+  "repository": "http://www.github.com/NativeScript/nativescript-ui-listview.git",
+  "nativescript": {
+    "id": "org.nativescript.demo",
+    "tns-ios": {
+      "version": "6.2.0"
+    },
+    "tns-android": {
+      "version": "6.2.0"
+    }
+  },
+  "dependencies": {
+    "nativescript-image": "~2.1.0",
+    "nativescript-theme-core": "^1.0.4",
+    "nativescript-ui-listview": "*",
+    "nativescript-unit-test-runner": "0.7.0",
+    "tns-core-modules": "^6.2.0"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.0.2",
+    "@types/karma-chai": "0.1.1",
+    "@types/mocha": "~5.2.6",
+    "@types/node": "^7.0.5",
+    "chai": "4.2.0",
+    "jasmine-core": "^2.5.2",
+    "karma": "4.1.0",
+    "karma-chai": "0.1.0",
+    "karma-jasmine": "2.0.1",
+    "karma-mocha": "1.3.0",
+    "karma-nativescript-launcher": "0.4.0",
+    "karma-webpack": "3.0.5",
+    "markdown-snippet-injector": "^0.2.2",
+    "mocha": "5.2.0",
+    "mocha-junit-reporter": "^1.18.0",
+    "mocha-multi-reporters": "^1.1.0",
+    "mochawesome": "^3.1.1",
+    "nativescript-css-loader": "~0.26.1",
+    "nativescript-dev-appium": "^6.0.0",
+    "nativescript-dev-webpack": "^1.3.0",
+    "tns-platform-declarations": "^6.2.0",
+    "tslint": "~5.11.0",
+    "typescript": "~3.5.3"
+  }
+}

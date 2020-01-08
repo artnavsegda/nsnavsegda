@@ -1,0 +1,958 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01FB93B4272E4B4887BED270 /* russia.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B6359DC861640EFB7FE4937 /* russia.png */; };
+		022E88ED849445CDA495F16F /* andorra.png in Resources */ = {isa = PBXBuildFile; fileRef = 567C9D8A988248F288700234 /* andorra.png */; };
+		0388C7DA30A64E55897E46A9 /* main4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D32025CFA6A44571A8EE2C3D /* main4.jpg */; };
+		052EF8B996AD49E099802F00 /* greece.png in Resources */ = {isa = PBXBuildFile; fileRef = 7DDF5B0AFB1D49B39DC6B95B /* greece.png */; };
+		05D72154B7CF4B31BFB4590C /* search.png in Resources */ = {isa = PBXBuildFile; fileRef = DF25E16C110F4BC5A66F1773 /* search.png */; };
+		06FAEF61A44E474C8A15A06B /* reorder-icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F16E769C7334C8AB424B185 /* reorder-icon@2x.png */; };
+		0728323284F54657A79DEDCE /* FRANK.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 79C851F3C6D84340B458E28B /* FRANK.jpg */; };
+		0EEF83DDF674493880DCDE0E /* FOLIG.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1B42C793AF5F4B0B9F47ED72 /* FOLIG.jpg */; };
+		0EFE51DFA8C94B52991A7A58 /* main5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2E0887E52C7F485E913B9C4B /* main5.jpg */; };
+		11230F17EB7D4E0C8D4C7C4A /* paleo2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA0FA2135D424B83A376EE49 /* paleo2.jpg */; };
+		124F0385F082432E9D12F7F1 /* main1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C9D0F4C224554A71984F2C88 /* main1.jpg */; };
+		14E41A43E1C346D78E47FAC5 /* breakfast2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7E643F4A0E8C495D9E876AD0 /* breakfast2.jpg */; };
+		17D9946C581D4ABEB85A9CAC /* breakfast3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 399DF232C125415AB367D08B /* breakfast3.jpg */; };
+		17ECDA9C9F3644FCB7ACDE79 /* WELLI.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1444E9A45B334FBF955AA604 /* WELLI.jpg */; };
+		1A2A30977736782DFCD34CF2 /* Pods_listview.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 043A25EA5BA2C31165B1B3D0 /* Pods_listview.framework */; };
+		1A5039A1B95C46DA83EC11D2 /* CENTC.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AB105A3D413248809215AF1D /* CENTC.jpg */; };
+		1B02BE4812E24C83918F3B4C /* macedonia.png in Resources */ = {isa = PBXBuildFile; fileRef = 750217546308458BA6B69156 /* macedonia.png */; };
+		1CF2E4A8F037425EB91DA34E /* ic_dataform_guest@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B3A4D603EB0E4219863FC9B7 /* ic_dataform_guest@2x.png */; };
+		1CFB75C931A249F19BF120D5 /* france.png in Resources */ = {isa = PBXBuildFile; fileRef = 159632BBBBEA4279AD61AFE7 /* france.png */; };
+		213E97BFAE084BF6B58113D5 /* breakfast4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2B2DA6795B78479F9D47F0AC /* breakfast4.jpg */; };
+		27B6A6895F114B1F9EA50CA1 /* ANTON.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 670C59D99FBF40F39DEF1324 /* ANTON.jpg */; };
+		2A661ACB4C16402ABD1F2829 /* slovenia.png in Resources */ = {isa = PBXBuildFile; fileRef = 8AEBFBAA8C70476F9353FA47 /* slovenia.png */; };
+		2B68A60153DE415B82FD6922 /* QUEEN.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D852C00FB06749F885F717E2 /* QUEEN.jpg */; };
+		2C3F7637511A4228BC477FCA /* cyprus.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B7EBC4503DB430687AD9F77 /* cyprus.png */; };
+		2D0C7E09FFD342F49DD8C3BD /* luxembourg.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F214237276E42699008163D /* luxembourg.png */; };
+		2E732D698E6F4085BADCBB50 /* WARTH.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A976810B6F5E4177B68E86CE /* WARTH.jpg */; };
+		31054D4B9EEA4F089E0BD42D /* TNSWidgets.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A784022D71EE4CA6A9FFF1BB /* TNSWidgets.framework */; };
+		3171113F06AA4FDBB08C9CDC /* clear.png in Resources */ = {isa = PBXBuildFile; fileRef = 47D338DF727E44E9AE4614C7 /* clear.png */; };
+		321174FBEBAE47CE884F137B /* MAGAA.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 45C8A7E46EFE42B595E7C399 /* MAGAA.jpg */; };
+		3227060432914D88B38CF055 /* moldova.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D109F97F9C0467780F0718D /* moldova.png */; };
+		33BB5EE3006D403882CD9643 /* dessert4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F3943930616940BA83313602 /* dessert4.jpg */; };
+		35B9265C54804401A78DD675 /* bulgaria.png in Resources */ = {isa = PBXBuildFile; fileRef = 6299081E080B43219AEACB9C /* bulgaria.png */; };
+		387B7FEEDBD4437B8597DE3E /* paleo4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4FCC655798FD46238B4656B3 /* paleo4.jpg */; };
+		3DD522AECB574E38B2E85EE8 /* main2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6A4183652C4442DAE7A599E /* main2.jpg */; };
+		3E7C687138574525AD965444 /* TNSWidgets.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A784022D71EE4CA6A9FFF1BB /* TNSWidgets.framework */; };
+		42C751E7232B769100186695 /* nativescript-pre-link in Resources */ = {isa = PBXBuildFile; fileRef = 42C751E2232B769100186695 /* nativescript-pre-link */; };
+		42C751E8232B769100186695 /* strip-dynamic-framework-architectures.sh in Resources */ = {isa = PBXBuildFile; fileRef = 42C751E3232B769100186695 /* strip-dynamic-framework-architectures.sh */; };
+		42C751E9232B769100186695 /* nsld.sh in Resources */ = {isa = PBXBuildFile; fileRef = 42C751E4232B769100186695 /* nsld.sh */; };
+		42C751EA232B769100186695 /* nativescript-post-build in Resources */ = {isa = PBXBuildFile; fileRef = 42C751E5232B769100186695 /* nativescript-post-build */; };
+		42C751EB232B769100186695 /* nativescript-pre-build in Resources */ = {isa = PBXBuildFile; fileRef = 42C751E6232B769100186695 /* nativescript-pre-build */; };
+		43544BAF9B7F471E90067517 /* GODOS.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 188694B3982F4902A610FA98 /* GODOS.jpg */; };
+		4385E471DE5F478FA9C4A45B /* ic_dataform_calendar@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE74CA69E39D46019D845880 /* ic_dataform_calendar@3x.png */; };
+		46D3EA725911404DA5919D18 /* TNSCore.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 23A316A61248470F8D09450B /* TNSCore.framework */; };
+		479B445DDEF14D718A6534E6 /* ic_dataform_phone@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 68A78FE5D4204C6197096248 /* ic_dataform_phone@2x.png */; };
+		48A325CCEF704732B62CC33E /* dessert5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 92B659D25F194FFBAA4320E5 /* dessert5.jpg */; };
+		49309E7633AA426E9D2229AA /* ic_dataform_calendar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3170518C8BEB44268FDA2ADB /* ic_dataform_calendar@2x.png */; };
+		4E887D67851C44B9B10D6C08 /* LETSS.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3BE8859E52C5415C9BE623C1 /* LETSS.jpg */; };
+		60E87D36FBF64D0788740561 /* czech.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F925D4D26A8493DB2F7EBA9 /* czech.png */; };
+		62D6F23838004A4FAC536B91 /* RANCH.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 98DE5D26ED0944ECAF082A57 /* RANCH.jpg */; };
+		62DB47E69B204B12AD822B0E /* BSBEV.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3DBC802E89BE4D7DA571622C /* BSBEV.jpg */; };
+		6BFFB10DB6FD4DA692E9A417 /* australia.png in Resources */ = {isa = PBXBuildFile; fileRef = 750262DD6C8B4CB1AD616002 /* australia.png */; };
+		6F566C29F9584BE49AB9EFEC /* ireland.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D6F2E1948994E999E223AC3 /* ireland.png */; };
+		6F9BFCD52043417D9BA7C6DD /* netherlands.png in Resources */ = {isa = PBXBuildFile; fileRef = 25F1F5E7215D42D08109BD0F /* netherlands.png */; };
+		7A9AE48718864CC98EF71E6A /* dessert3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0DE6374A1A034B37B8901BE1 /* dessert3.jpg */; };
+		7F467742676F433C98C49ADC /* paleo1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 111F9B9AA6D148F69E5FEB15 /* paleo1.jpg */; };
+		80836EE4213B4E509A295538 /* denmark.png in Resources */ = {isa = PBXBuildFile; fileRef = 7EE30D9D76C741859610DA91 /* denmark.png */; };
+		817933FEA49842EF8B4CF7DE /* hungary.png in Resources */ = {isa = PBXBuildFile; fileRef = 3606281EC215487CA288275A /* hungary.png */; };
+		8382EF53168A401DBC2613A9 /* albania.png in Resources */ = {isa = PBXBuildFile; fileRef = 947C7A91E9264799B8B1562E /* albania.png */; };
+		84FA7568E1B04F348EA24F42 /* sweden.png in Resources */ = {isa = PBXBuildFile; fileRef = 63E4144598A94EFFB6209DF2 /* sweden.png */; };
+		853E637C48C3474FA7A62F75 /* ic_dataform_table.png in Resources */ = {isa = PBXBuildFile; fileRef = A9542F4C1C044DDCA799E98E /* ic_dataform_table.png */; };
+		858B842D18CA22B800AB12DE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 858B833A18CA111C00AB12DE /* InfoPlist.strings */; };
+		882E8DFBE4F24BBCA29A4502 /* ic_dataform_guest.png in Resources */ = {isa = PBXBuildFile; fileRef = AA2F6B5D2B6F4FBF8207754D /* ic_dataform_guest.png */; };
+		88368BFA51A5451B94FE3635 /* breakfast6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 34B786D7FA1D4ADA930E1044 /* breakfast6.jpg */; };
+		887F6AA6434F4B60AAB99722 /* reorder-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 257737AE0DF74AFF83D6DEEB /* reorder-icon.png */; };
+		8AB7425B40424911843DB02B /* NSImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 12B4C0345F69479097630F09 /* NSImageView.m */; };
+		8B72B26721B1479B9AA32221 /* vatican.png in Resources */ = {isa = PBXBuildFile; fileRef = AA07F3F500D14E109BF1AEBA /* vatican.png */; };
+		8E19D0B42FBB429F96B4DDF3 /* italy.png in Resources */ = {isa = PBXBuildFile; fileRef = 64422727FA134A9088A31070 /* italy.png */; };
+		8E79F2A76D124A34A255F0C0 /* LAZYK.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4827A52D48214253901EB5F1 /* LAZYK.jpg */; };
+		8FDE1A7510874E40B9E4DB78 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB5892C35EEC47F3B75E0425 /* LaunchScreen.storyboard */; };
+		937FDC9BF9A742E1A400FBE7 /* ic_dataform_guest@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 68B5079BABA343B2A6C6E544 /* ic_dataform_guest@3x.png */; };
+		963C5718D6BA46A9A8D9A898 /* TRAIH.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4AD25DC03FFD4E5391356774 /* TRAIH.jpg */; };
+		96456476C817466E88C50235 /* TNSListView.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 63D58C9E667647F58E13B4DB /* TNSListView.framework */; };
+		98273EF49F4B41839DABB4D6 /* build.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 46716902F94C45DA860629E9 /* build.xcconfig */; };
+		98F144EE170F488493D00346 /* dessert7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 12C1BC7AF3FC402FBD249086 /* dessert7.jpg */; };
+		9CD5DA970C23440D961319ED /* ic_dataform_calendar.png in Resources */ = {isa = PBXBuildFile; fileRef = E077336A3E12453C9871904A /* ic_dataform_calendar.png */; };
+		9CE430201CA74CE2816CE474 /* dessert2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5046208165D3485EBBFB0CCD /* dessert2.jpg */; };
+		9E10719E712B4EA889197E99 /* paleo3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F293363BFE7B45F29120C38A /* paleo3.jpg */; };
+		9F31DC665ADC469B8305847F /* LAMAI.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 32264778B77A484E95B62FB1 /* LAMAI.jpg */; };
+		A087472A4B2843E89A1F8FA2 /* monaco.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E758A27D0A644B7A557B489 /* monaco.png */; };
+		A28856E1CAB5466FB5F1CE1E /* TNSListView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63D58C9E667647F58E13B4DB /* TNSListView.framework */; };
+		A43C12C9C1C3491F9F416423 /* slovakia.png in Resources */ = {isa = PBXBuildFile; fileRef = DAFA9E7B3CB14ACEB9196E4B /* slovakia.png */; };
+		A5F28990D380481A96E68052 /* paleo5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C1583E4DAB2240289E412EE0 /* paleo5.jpg */; };
+		A68B6724568E42A9A4DF4EA4 /* breakfast5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9801FD1546804B20B806F418 /* breakfast5.jpg */; };
+		A8BE881C50684313B342B37B /* turkey.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A7DDEB291AD42BF8C10108B /* turkey.png */; };
+		AA4185AC03AE43338A4702B3 /* romania.png in Resources */ = {isa = PBXBuildFile; fileRef = 70D30CCE49974EE9BD3935F2 /* romania.png */; };
+		B116AD580DBA4FAFA13172FF /* dessert1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 53D3671988654F8988A92AFA /* dessert1.jpg */; };
+		B407BE7CB6CC4399BC03A414 /* ic_dataform_table@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = CAC94DCF6CEF4DCB8D56C550 /* ic_dataform_table@3x.png */; };
+		B43452D572E5431D8CC93BDA /* ic_dataform_phone.png in Resources */ = {isa = PBXBuildFile; fileRef = 30BF7801B6FF4796888554D1 /* ic_dataform_phone.png */; };
+		B58E48201887469F8E1C84DA /* RICSU.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 93D7868C5CCC40EDA3744F85 /* RICSU.jpg */; };
+		B65493CD6F00400E83C64095 /* states.png in Resources */ = {isa = PBXBuildFile; fileRef = 0026238462AC4F6190534A90 /* states.png */; };
+		B719097104B84E98BD8CC74B /* dessert6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D2BCBA248EFB40C8B0AE7E75 /* dessert6.jpg */; };
+		B8EAE6D996CA4C5AA96D08E4 /* breakfast1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 63C32A1B1C404811980482F3 /* breakfast1.jpg */; };
+		BF28A6C95F184047BFDE93EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85CF8604450F4A33B3E43CED /* Assets.xcassets */; };
+		C0E22C3AA3004412B1CFD4C6 /* TNSCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23A316A61248470F8D09450B /* TNSCore.framework */; };
+		C8E904CD2E714CCFA38A6DC3 /* QUEDE.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C99085CB3C6441BE830BBD18 /* QUEDE.jpg */; };
+		C922D5D222E14E018A4CA071 /* belgium.png in Resources */ = {isa = PBXBuildFile; fileRef = 456731C5ADB14698A851A3C1 /* belgium.png */; };
+		CA09CCDFC64E452DBB12DC58 /* ic_dataform_phone@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 85E026FC91DC4A9095C06969 /* ic_dataform_phone@3x.png */; };
+		CD45EE7C18DC2D5800FB50C0 /* app in Resources */ = {isa = PBXBuildFile; fileRef = CD45EE7A18DC2D5800FB50C0 /* app */; };
+		CD62955D1BB2678900AE3A93 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD62955C1BB2678900AE3A93 /* main.m */; };
+		CEB2576330FD4CF6B56E55B2 /* QUICK.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CD6A971D135245C7991BFF6A /* QUICK.jpg */; };
+		D42A04AED39944A4B76E83FA /* main3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0DB739736F61469F81F89F62 /* main3.jpg */; };
+		D4793D94C5F44FBDA89E88B4 /* poland.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B7EE82831EC4F3AA8EBD3A9 /* poland.png */; };
+		D60B391E80744CBE99D29A9E /* finland.png in Resources */ = {isa = PBXBuildFile; fileRef = 9107465BE417435989BDEBB1 /* finland.png */; };
+		E2754A450C954ACDA92FCD54 /* BONAP.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1949B86B2B13479BA7099E53 /* BONAP.jpg */; };
+		E4170AC35F594AB687E174C7 /* germany.png in Resources */ = {isa = PBXBuildFile; fileRef = 8AC41A37BFC84ABEAE1F1A98 /* germany.png */; };
+		E9A25F3CEDB64BD98204E9C6 /* ukraine.png in Resources */ = {isa = PBXBuildFile; fileRef = 10FD9CE12A6046FC8D6F94C6 /* ukraine.png */; };
+		ECA6A268C5E7486FAF3506E7 /* NativeScriptEmbedder.m in Sources */ = {isa = PBXBuildFile; fileRef = 30BBC57E3A074AFFAEF5C21B /* NativeScriptEmbedder.m */; };
+		EE655AFC07F44C7D8BF9182B /* japan.png in Resources */ = {isa = PBXBuildFile; fileRef = B1557867AA6B475AAB6BDB51 /* japan.png */; };
+		EF52086DAD6447F9A6DFF4C1 /* TOMSP.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EDB80D7165B842BA8B898226 /* TOMSP.jpg */; };
+		F5309F131944455E8C34385A /* ic_dataform_table@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 538AEAF4523346ADB70DE33D /* ic_dataform_table@2x.png */; };
+		F9D3059161A44876BEA6456B /* FURIB.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 59E1053861F14BC7998E03F0 /* FURIB.jpg */; };
+		FCB64FAC53F0457EB7C8BA38 /* norway.png in Resources */ = {isa = PBXBuildFile; fileRef = C047405FD6A04A31B69A07EF /* norway.png */; };
+		FFB7DCE1011B4275BAE7A804 /* reorder-icon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 85EB1EA0072849418A7B2A4B /* reorder-icon@3x.png */; };
+		FFC65A7385024F158AAAF525 /* latvia.png in Resources */ = {isa = PBXBuildFile; fileRef = 971500F895304F4AADB9EA78 /* latvia.png */; };
+		FFE05CF2B1B6463DA27B8341 /* dessert8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3D5B07F96F3E4E21AEF4636C /* dessert8.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		85F5BDFC1A9363BE006B9701 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				96456476C817466E88C50235 /* TNSListView.framework in Embed Frameworks */,
+				46D3EA725911404DA5919D18 /* TNSCore.framework in Embed Frameworks */,
+				3E7C687138574525AD965444 /* TNSWidgets.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0026238462AC4F6190534A90 /* states.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = image.png; name = states.png; path = listview/Resources/states.png; sourceTree = "<group>"; };
+		043A25EA5BA2C31165B1B3D0 /* Pods_listview.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_listview.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0DB739736F61469F81F89F62 /* main3.jpg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = main3.jpg; path = listview/Resources/main3.jpg; sourceTree = "<group>"; };
+		0DE6374A1A034B37B8901BE1 /* dessert3.jpg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = dessert3.jpg; path = listview/Resources/dessert3.jpg; sourceTree = "<group>"; };
+		10FD9CE12A6046FC8D6F94C6 /* ukraine.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = image.png; name = ukraine.png; path = listview/Resources/ukraine.png; sourceTree = "<group>"; };
+		111F9B9AA6D148F69E5FEB15 /* paleo1.jpg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = paleo1.jpg; path = listview/Resources/paleo1.jpg; sourceTree = "<group>"; };
+		12B4C0345F69479097630F09 /* NSImageView.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = NSImageView.m; path = "../../node_modules/nativescript-image/platforms/ios/src/NSImageView.m"; sourceTree = "<group>"; };
+		12C1BC7AF3FC402FBD249086 /* dessert7.jpg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = dessert7.jpg; path = listview/Resources/dessert7.jpg; sourceTree = "<group>"; };
+		1444E9A45B334FBF955AA604 /* WELLI.jpg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = WELLI.jpg; path = listview/Resources/WELLI.jpg; sourceTree = "<group>"; };
+		159632BBBBEA4279AD61AFE7 /* france.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = image.png; name = france.png; path = listview/Resources/france.png; sourceTree = "<group>"; };
+		188694B3982F4902A610FA98 /* GODOS.jpg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = GODOS.jpg; path = listview/Resources/GODOS.jpg; sourceTree = "<group>"; };
+		1949B86B2B13479BA7099E53 /* BONAP.jpg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = BONAP.jpg; path = listview/Resources/BONAP.jpg; sourceTree = "<group>"; };
+		1B42C793AF5F4B0B9F47ED72 /* FOLIG.jpg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = FOLIG.jpg; path = listview/Resources/FOLIG.jpg; sourceTree = "<group>"; };
+		1D4FA9606048736821523105 /* Pods-listview.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-listview.release.xcconfig"; path = "Target Support Files/Pods-listview/Pods-listview.release.xcconfig"; sourceTree = "<group>"; };
+		1F214237276E42699008163D /* luxembourg.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = image.png; name = luxembourg.png; path = listview/Resources/luxembourg.png; sourceTree = "<group>"; };
+		23A316A61248470F8D09450B /* TNSCore.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = TNSCore.framework; path = "$(SRCROOT)/../../node_modules/nativescript-ui-core/platforms/ios/TNSCore.framework"; sourceTree = "<group>"; };
+		257737AE0DF74AFF83D6DEEB /* reorder-icon.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = image.png; name = "reorder-icon.png"; path = "listview/Resources/reorder-icon.png"; sourceTree = "<group>"; };
+		25F1F5E7215D42D08109BD0F /* netherlands.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = image.png; name = netherlands.png; path = listview/Resources/netherlands.png; sourceTree = "<group>"; };
+		2A7DDEB291AD42BF8C10108B /* turkey.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = image.png; name = turkey.png; path = listview/Resources/turkey.png; sourceTree = "<group>"; };
+		2B2DA6795B78479F9D47F0AC /* breakfast4.jpg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = breakfast4.jpg; path = listview/Resources/breakfast4.jpg; sourceTree = "<group>"; };
+		2E0887E52C7F485E913B9C4B /* main5.jpg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = main5.jpg; path = listview/Resources/main5.jpg; sourceTree = "<group>"; };
+		30BBC57E3A074AFFAEF5C21B /* NativeScriptEmbedder.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = NativeScriptEmbedder.m; path = "../../node_modules/@nativescript/core/platforms/ios/src/NativeScriptEmbedder.m"; sourceTree = "<group>"; };
+		30BF7801B6FF4796888554D1 /* ic_dataform_phone.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = image.png; name = ic_dataform_phone.png; path = listview/Resources/ic_dataform_phone.png; sourceTree = "<group>"; };
+		3170518C8BEB44268FDA2ADB /* ic_dataform_calendar@2x.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = image.png; name = "ic_dataform_calendar@2x.png"; path = "listview/Resources/ic_dataform_calendar@2x.png"; sourceTree = "<group>"; };
+		32264778B77A484E95B62FB1 /* LAMAI.jpg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = LAMAI.jpg; path = listview/Resources/LAMAI.jpg; sourceTree = "<group>"; };
+		34B786D7FA1D4ADA930E1044 /* breakfast6.jpg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = breakfast6.jpg; path = listview/Resources/breakfast6.jpg; sourceTree = "<group>"; };
+		3606281EC215487CA288275A /* hungary.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = image.png; name = hungary.png; path = listview/Resources/hungary.png; sourceTree = "<group>"; };
+		391174B321F1CBD300BA2583 /* TNSDebugging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TNSDebugging.h; path = internal/TNSDebugging.h; sourceTree = SOURCE_ROOT; };
+		391174B421F1CBD300BA2583 /* TNSExceptionHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TNSExceptionHandler.h; path = internal/TNSExceptionHandler.h; sourceTree = SOURCE_ROOT; };
+		391174B521F1D7BF00BA2583 /* nativescript-build.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = "nativescript-build.xcconfig"; path = "internal/nativescript-build.xcconfig"; sourceTree = SOURCE_ROOT; };
+		391174B721F1D99900BA2583 /* plugins-release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "plugins-release.xcconfig"; sourceTree = SOURCE_ROOT; };
+		391174B821F1D99900BA2583 /* plugins-debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "plugins-debug.xcconfig"; sourceTree = SOURCE_ROOT; };
+		399DF232C125415AB367D08B /* breakfast3.jpg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = breakfast3.jpg; path = listview/Resources/breakfast3.jpg; sourceTree = "<group>"; };
+		3BE8859E52C5415C9BE623C1 /* LETSS.jpg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = LETSS.jpg; path = listview/Resources/LETSS.jpg; sourceTree = "<group>"; };
+		3D5B07F96F3E4E21AEF4636C /* dessert8.jpg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = dessert8.jpg; path = listview/Resources/dessert8.jpg; sourceTree = "<group>"; };
+		3D6F2E1948994E999E223AC3 /* ireland.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = image.png; name = ireland.png; path = listview/Resources/ireland.png; sourceTree = "<group>"; };
+		3DBC802E89BE4D7DA571622C /* BSBEV.jpg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = BSBEV.jpg; path = listview/Resources/BSBEV.jpg; sourceTree = "<group>"; };
+		3F16E769C7334C8AB424B185 /* reorder-icon@2x.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = image.png; name = "reorder-icon@2x.png"; path = "listview/Resources/reorder-icon@2x.png"; sourceTree = "<group>"; };
+		42C751E2232B769100186695 /* nativescript-pre-link */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "nativescript-pre-link"; path = "internal/nativescript-pre-link"; sourceTree = SOURCE_ROOT; };
+		42C751E3232B769100186695 /* strip-dynamic-framework-architectures.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; name = "strip-dynamic-framework-architectures.sh"; path = "internal/strip-dynamic-framework-architectures.sh"; sourceTree = SOURCE_ROOT; };
+		42C751E4232B769100186695 /* nsld.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; name = nsld.sh; path = internal/nsld.sh; sourceTree = SOURCE_ROOT; };
+		42C751E5232B769100186695 /* nativescript-post-build */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "nativescript-post-build"; path = "internal/nativescript-post-build"; sourceTree = SOURCE_ROOT; };
+		42C751E6232B769100186695 /* nativescript-pre-build */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "nativescript-pre-build"; path = "internal/nativescript-pre-build"; sourceTree = SOURCE_ROOT; };
+		456731C5ADB14698A851A3C1 /* belgium.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = image.png; name = belgium.png; path = listview/Resources/belgium.png; sourceTree = "<group>"; };
+		45C8A7E46EFE42B595E7C399 /* MAGAA.jpg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = MAGAA.jpg; path = listview/Resources/MAGAA.jpg; sourceTree = "<group>"; };
+		46716902F94C45DA860629E9 /* build.xcconfig */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = text.xcconfig; name = build.xcconfig; path = listview/Resources/build.xcconfig; sourceTree = "<group>"; };
+		47D338DF727E44E9AE4614C7 /* clear.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = image.png; name = clear.png; path = listview/Resources/clear.png; sourceTree = "<group>"; };
+		4827A52D48214253901EB5F1 /* LAZYK.jpg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = LAZYK.jpg; path = listview/Resources/LAZYK.jpg; sourceTree = "<group>"; };
+		4AD25DC03FFD4E5391356774 /* TRAIH.jpg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = TRAIH.jpg; path = listview/Resources/TRAIH.jpg; sourceTree = "<group>"; };
+		4B7EBC4503DB430687AD9F77 /* cyprus.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = image.png; name = cyprus.png; path = listview/Resources/cyprus.png; sourceTree = "<group>"; };
+		4B7EE82831EC4F3AA8EBD3A9 /* poland.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = image.png; name = poland.png; path = listview/Resources/poland.png; sourceTree = "<group>"; };
+		4FCC655798FD46238B4656B3 /* paleo4.jpg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = paleo4.jpg; path = listview/Resources/paleo4.jpg; sourceTree = "<group>"; };
+		5046208165D3485EBBFB0CCD /* dessert2.jpg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = dessert2.jpg; path = listview/Resources/dessert2.jpg; sourceTree = "<group>"; };
+		538AEAF4523346ADB70DE33D /* ic_dataform_table@2x.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = image.png; name = "ic_dataform_table@2x.png"; path = "listview/Resources/ic_dataform_table@2x.png"; sourceTree = "<group>"; };
+		53D3671988654F8988A92AFA /* dessert1.jpg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = dessert1.jpg; path = listview/Resources/dessert1.jpg; sourceTree = "<group>"; };
+		567C9D8A988248F288700234 /* andorra.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = image.png; name = andorra.png; path = listview/Resources/andorra.png; sourceTree = "<group>"; };
+		56DCC6CD42E35A5C1D3F6232 /* Pods-listview.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-listview.debug.xcconfig"; path = "Target Support Files/Pods-listview/Pods-listview.debug.xcconfig"; sourceTree = "<group>"; };
+		59E1053861F14BC7998E03F0 /* FURIB.jpg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = FURIB.jpg; path = listview/Resources/FURIB.jpg; sourceTree = "<group>"; };
+		6299081E080B43219AEACB9C /* bulgaria.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = image.png; name = bulgaria.png; path = listview/Resources/bulgaria.png; sourceTree = "<group>"; };
+		63C32A1B1C404811980482F3 /* breakfast1.jpg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = breakfast1.jpg; path = listview/Resources/breakfast1.jpg; sourceTree = "<group>"; };
+		63D58C9E667647F58E13B4DB /* TNSListView.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = TNSListView.framework; path = "$(SRCROOT)/../../node_modules/nativescript-ui-listview/platforms/ios/TNSListView.framework"; sourceTree = "<group>"; };
+		63E4144598A94EFFB6209DF2 /* sweden.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = image.png; name = sweden.png; path = listview/Resources/sweden.png; sourceTree = "<group>"; };
+		64422727FA134A9088A31070 /* italy.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = image.png; name = italy.png; path = listview/Resources/italy.png; sourceTree = "<group>"; };
+		670C59D99FBF40F39DEF1324 /* ANTON.jpg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = ANTON.jpg; path = listview/Resources/ANTON.jpg; sourceTree = "<group>"; };
+		68A78FE5D4204C6197096248 /* ic_dataform_phone@2x.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = image.png; name = "ic_dataform_phone@2x.png"; path = "listview/Resources/ic_dataform_phone@2x.png"; sourceTree = "<group>"; };
+		68B5079BABA343B2A6C6E544 /* ic_dataform_guest@3x.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = image.png; name = "ic_dataform_guest@3x.png"; path = "listview/Resources/ic_dataform_guest@3x.png"; sourceTree = "<group>"; };
+		70D30CCE49974EE9BD3935F2 /* romania.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = image.png; name = romania.png; path = listview/Resources/romania.png; sourceTree = "<group>"; };
+		73BBB195EDA845B3B1CF20DF /* NativeScriptEmbedder.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = NativeScriptEmbedder.h; path = "../../node_modules/@nativescript/core/platforms/ios/src/NativeScriptEmbedder.h"; sourceTree = "<group>"; };
+		750217546308458BA6B69156 /* macedonia.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = image.png; name = macedonia.png; path = listview/Resources/macedonia.png; sourceTree = "<group>"; };
+		750262DD6C8B4CB1AD616002 /* australia.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = image.png; name = australia.png; path = listview/Resources/australia.png; sourceTree = "<group>"; };
+		79C851F3C6D84340B458E28B /* FRANK.jpg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = FRANK.jpg; path = listview/Resources/FRANK.jpg; sourceTree = "<group>"; };
+		7DDF5B0AFB1D49B39DC6B95B /* greece.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = image.png; name = greece.png; path = listview/Resources/greece.png; sourceTree = "<group>"; };
+		7E643F4A0E8C495D9E876AD0 /* breakfast2.jpg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = breakfast2.jpg; path = listview/Resources/breakfast2.jpg; sourceTree = "<group>"; };
+		7E758A27D0A644B7A557B489 /* monaco.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = image.png; name = monaco.png; path = listview/Resources/monaco.png; sourceTree = "<group>"; };
+		7EE30D9D76C741859610DA91 /* denmark.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = image.png; name = denmark.png; path = listview/Resources/denmark.png; sourceTree = "<group>"; };
+		7F925D4D26A8493DB2F7EBA9 /* czech.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = image.png; name = czech.png; path = listview/Resources/czech.png; sourceTree = "<group>"; };
+		858B832E18CA111C00AB12DE /* listview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = listview.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		858B833918CA111C00AB12DE /* listview-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "listview-Info.plist"; sourceTree = "<group>"; };
+		858B833B18CA111C00AB12DE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		858B833F18CA111C00AB12DE /* listview-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "listview-Prefix.pch"; sourceTree = "<group>"; };
+		858B843318CA22B800AB12DE /* listview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = listview.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		85CF8604450F4A33B3E43CED /* Assets.xcassets */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = listview/Resources/Assets.xcassets; sourceTree = "<group>"; };
+		85E026FC91DC4A9095C06969 /* ic_dataform_phone@3x.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = image.png; name = "ic_dataform_phone@3x.png"; path = "listview/Resources/ic_dataform_phone@3x.png"; sourceTree = "<group>"; };
+		85EB1EA0072849418A7B2A4B /* reorder-icon@3x.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = image.png; name = "reorder-icon@3x.png"; path = "listview/Resources/reorder-icon@3x.png"; sourceTree = "<group>"; };
+		8AC41A37BFC84ABEAE1F1A98 /* germany.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = image.png; name = germany.png; path = listview/Resources/germany.png; sourceTree = "<group>"; };
+		8AEBFBAA8C70476F9353FA47 /* slovenia.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = image.png; name = slovenia.png; path = listview/Resources/slovenia.png; sourceTree = "<group>"; };
+		8B6359DC861640EFB7FE4937 /* russia.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = image.png; name = russia.png; path = listview/Resources/russia.png; sourceTree = "<group>"; };
+		9107465BE417435989BDEBB1 /* finland.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = image.png; name = finland.png; path = listview/Resources/finland.png; sourceTree = "<group>"; };
+		92B659D25F194FFBAA4320E5 /* dessert5.jpg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = dessert5.jpg; path = listview/Resources/dessert5.jpg; sourceTree = "<group>"; };
+		930F05DB22671AE300D269DC /* Swift-ObjC-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "Swift-ObjC-Bridging-Header.h"; path = "internal/Swift-ObjC-Bridging-Header.h"; sourceTree = SOURCE_ROOT; };
+		93D7868C5CCC40EDA3744F85 /* RICSU.jpg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = RICSU.jpg; path = listview/Resources/RICSU.jpg; sourceTree = "<group>"; };
+		947C7A91E9264799B8B1562E /* albania.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = image.png; name = albania.png; path = listview/Resources/albania.png; sourceTree = "<group>"; };
+		971500F895304F4AADB9EA78 /* latvia.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = image.png; name = latvia.png; path = listview/Resources/latvia.png; sourceTree = "<group>"; };
+		9801FD1546804B20B806F418 /* breakfast5.jpg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = breakfast5.jpg; path = listview/Resources/breakfast5.jpg; sourceTree = "<group>"; };
+		98DE5D26ED0944ECAF082A57 /* RANCH.jpg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = RANCH.jpg; path = listview/Resources/RANCH.jpg; sourceTree = "<group>"; };
+		9D109F97F9C0467780F0718D /* moldova.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = image.png; name = moldova.png; path = listview/Resources/moldova.png; sourceTree = "<group>"; };
+		A784022D71EE4CA6A9FFF1BB /* TNSWidgets.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = TNSWidgets.framework; path = "$(SRCROOT)/../../node_modules/tns-core-modules-widgets/platforms/ios/TNSWidgets.framework"; sourceTree = "<group>"; };
+		A9542F4C1C044DDCA799E98E /* ic_dataform_table.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = image.png; name = ic_dataform_table.png; path = listview/Resources/ic_dataform_table.png; sourceTree = "<group>"; };
+		A976810B6F5E4177B68E86CE /* WARTH.jpg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = WARTH.jpg; path = listview/Resources/WARTH.jpg; sourceTree = "<group>"; };
+		AA07F3F500D14E109BF1AEBA /* vatican.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = image.png; name = vatican.png; path = listview/Resources/vatican.png; sourceTree = "<group>"; };
+		AA2F6B5D2B6F4FBF8207754D /* ic_dataform_guest.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = image.png; name = ic_dataform_guest.png; path = listview/Resources/ic_dataform_guest.png; sourceTree = "<group>"; };
+		AB105A3D413248809215AF1D /* CENTC.jpg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = CENTC.jpg; path = listview/Resources/CENTC.jpg; sourceTree = "<group>"; };
+		B1557867AA6B475AAB6BDB51 /* japan.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = image.png; name = japan.png; path = listview/Resources/japan.png; sourceTree = "<group>"; };
+		B3A4D603EB0E4219863FC9B7 /* ic_dataform_guest@2x.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = image.png; name = "ic_dataform_guest@2x.png"; path = "listview/Resources/ic_dataform_guest@2x.png"; sourceTree = "<group>"; };
+		B6A4183652C4442DAE7A599E /* main2.jpg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = main2.jpg; path = listview/Resources/main2.jpg; sourceTree = "<group>"; };
+		C047405FD6A04A31B69A07EF /* norway.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = image.png; name = norway.png; path = listview/Resources/norway.png; sourceTree = "<group>"; };
+		C1583E4DAB2240289E412EE0 /* paleo5.jpg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = paleo5.jpg; path = listview/Resources/paleo5.jpg; sourceTree = "<group>"; };
+		C99085CB3C6441BE830BBD18 /* QUEDE.jpg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = QUEDE.jpg; path = listview/Resources/QUEDE.jpg; sourceTree = "<group>"; };
+		C9D0F4C224554A71984F2C88 /* main1.jpg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = main1.jpg; path = listview/Resources/main1.jpg; sourceTree = "<group>"; };
+		CA2CC2FD2B4A4E1984EB5B42 /* NSImage.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = NSImage.h; path = "../../node_modules/nativescript-image/platforms/ios/src/NSImage.h"; sourceTree = "<group>"; };
+		CAC94DCF6CEF4DCB8D56C550 /* ic_dataform_table@3x.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = image.png; name = "ic_dataform_table@3x.png"; path = "listview/Resources/ic_dataform_table@3x.png"; sourceTree = "<group>"; };
+		CB5892C35EEC47F3B75E0425 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = LaunchScreen.storyboard; path = listview/Resources/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CD45EE7A18DC2D5800FB50C0 /* app */ = {isa = PBXFileReference; lastKnownFileType = folder; path = app; sourceTree = "<group>"; };
+		CD62955C1BB2678900AE3A93 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = internal/main.m; sourceTree = SOURCE_ROOT; };
+		CD6A971D135245C7991BFF6A /* QUICK.jpg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = QUICK.jpg; path = listview/Resources/QUICK.jpg; sourceTree = "<group>"; };
+		CDD59A261BB43B5D00EC2671 /* build-debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "build-debug.xcconfig"; sourceTree = "<group>"; };
+		CDD59A271BB43B5D00EC2671 /* build-release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "build-release.xcconfig"; sourceTree = "<group>"; };
+		CDF4743E1BA4855C0087EA85 /* build.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = build.xcconfig; sourceTree = "<group>"; };
+		D2BCBA248EFB40C8B0AE7E75 /* dessert6.jpg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = dessert6.jpg; path = listview/Resources/dessert6.jpg; sourceTree = "<group>"; };
+		D32025CFA6A44571A8EE2C3D /* main4.jpg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = main4.jpg; path = listview/Resources/main4.jpg; sourceTree = "<group>"; };
+		D852C00FB06749F885F717E2 /* QUEEN.jpg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = QUEEN.jpg; path = listview/Resources/QUEEN.jpg; sourceTree = "<group>"; };
+		D98249A645B94306BD29EC95 /* module.modulemap */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = "sourcecode.module-map"; name = module.modulemap; path = "../../node_modules/@nativescript/core/platforms/ios/src/module.modulemap"; sourceTree = "<group>"; };
+		DAFA9E7B3CB14ACEB9196E4B /* slovakia.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = image.png; name = slovakia.png; path = listview/Resources/slovakia.png; sourceTree = "<group>"; };
+		DF25E16C110F4BC5A66F1773 /* search.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = image.png; name = search.png; path = listview/Resources/search.png; sourceTree = "<group>"; };
+		E077336A3E12453C9871904A /* ic_dataform_calendar.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = image.png; name = ic_dataform_calendar.png; path = listview/Resources/ic_dataform_calendar.png; sourceTree = "<group>"; };
+		EDB80D7165B842BA8B898226 /* TOMSP.jpg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = TOMSP.jpg; path = listview/Resources/TOMSP.jpg; sourceTree = "<group>"; };
+		EE74CA69E39D46019D845880 /* ic_dataform_calendar@3x.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = image.png; name = "ic_dataform_calendar@3x.png"; path = "listview/Resources/ic_dataform_calendar@3x.png"; sourceTree = "<group>"; };
+		F293363BFE7B45F29120C38A /* paleo3.jpg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = paleo3.jpg; path = listview/Resources/paleo3.jpg; sourceTree = "<group>"; };
+		F3943930616940BA83313602 /* dessert4.jpg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = dessert4.jpg; path = listview/Resources/dessert4.jpg; sourceTree = "<group>"; };
+		FA0FA2135D424B83A376EE49 /* paleo2.jpg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = paleo2.jpg; path = listview/Resources/paleo2.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		858B83F418CA22B800AB12DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A28856E1CAB5466FB5F1CE1E /* TNSListView.framework in Frameworks */,
+				C0E22C3AA3004412B1CFD4C6 /* TNSCore.framework in Frameworks */,
+				31054D4B9EEA4F089E0BD42D /* TNSWidgets.framework in Frameworks */,
+				1A2A30977736782DFCD34CF2 /* Pods_listview.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		061897963C96D8A617229C4D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				56DCC6CD42E35A5C1D3F6232 /* Pods-listview.debug.xcconfig */,
+				1D4FA9606048736821523105 /* Pods-listview.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		2937D46F49E441A0B3822466 /* nativescript-image */ = {
+			isa = PBXGroup;
+			children = (
+				CA2CC2FD2B4A4E1984EB5B42 /* NSImage.h */,
+				12B4C0345F69479097630F09 /* NSImageView.m */,
+			);
+			name = "nativescript-image";
+			sourceTree = "<group>";
+		};
+		42C751E1232B767700186695 /* Build Scripts */ = {
+			isa = PBXGroup;
+			children = (
+				42C751E5232B769100186695 /* nativescript-post-build */,
+				42C751E6232B769100186695 /* nativescript-pre-build */,
+				42C751E2232B769100186695 /* nativescript-pre-link */,
+				42C751E4232B769100186695 /* nsld.sh */,
+				42C751E3232B769100186695 /* strip-dynamic-framework-architectures.sh */,
+			);
+			name = "Build Scripts";
+			sourceTree = "<group>";
+		};
+		7ADC1341630740C1886AE4C5 /* @nativescript/core */ = {
+			isa = PBXGroup;
+			children = (
+				73BBB195EDA845B3B1CF20DF /* NativeScriptEmbedder.h */,
+				30BBC57E3A074AFFAEF5C21B /* NativeScriptEmbedder.m */,
+				D98249A645B94306BD29EC95 /* module.modulemap */,
+			);
+			name = "@nativescript/core";
+			sourceTree = "<group>";
+		};
+		858B832518CA111C00AB12DE = {
+			isa = PBXGroup;
+			children = (
+				E070579D1B39A9D000214BF1 /* Resources */,
+				858B833718CA111C00AB12DE /* listview */,
+				858B833018CA111C00AB12DE /* Frameworks */,
+				858B832F18CA111C00AB12DE /* Products */,
+				C9D78CB9FA014B6692562E34 /* TNSNativeSource */,
+				2937D46F49E441A0B3822466 /* nativescript-image */,
+				7ADC1341630740C1886AE4C5 /* @nativescript/core */,
+				061897963C96D8A617229C4D /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		858B832F18CA111C00AB12DE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				858B832E18CA111C00AB12DE /* listview.app */,
+				858B843318CA22B800AB12DE /* listview.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		858B833018CA111C00AB12DE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				63D58C9E667647F58E13B4DB /* TNSListView.framework */,
+				23A316A61248470F8D09450B /* TNSCore.framework */,
+				A784022D71EE4CA6A9FFF1BB /* TNSWidgets.framework */,
+				043A25EA5BA2C31165B1B3D0 /* Pods_listview.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		858B833718CA111C00AB12DE /* listview */ = {
+			isa = PBXGroup;
+			children = (
+				CD45EE7A18DC2D5800FB50C0 /* app */,
+				858B833818CA111C00AB12DE /* Supporting Files */,
+			);
+			path = listview;
+			sourceTree = "<group>";
+		};
+		858B833818CA111C00AB12DE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				42C751E1232B767700186695 /* Build Scripts */,
+				391174B821F1D99900BA2583 /* plugins-debug.xcconfig */,
+				391174B721F1D99900BA2583 /* plugins-release.xcconfig */,
+				391174B321F1CBD300BA2583 /* TNSDebugging.h */,
+				391174B421F1CBD300BA2583 /* TNSExceptionHandler.h */,
+				CDF4743E1BA4855C0087EA85 /* build.xcconfig */,
+				CDD59A261BB43B5D00EC2671 /* build-debug.xcconfig */,
+				CDD59A271BB43B5D00EC2671 /* build-release.xcconfig */,
+				391174B521F1D7BF00BA2583 /* nativescript-build.xcconfig */,
+				858B833918CA111C00AB12DE /* listview-Info.plist */,
+				858B833A18CA111C00AB12DE /* InfoPlist.strings */,
+				CD62955C1BB2678900AE3A93 /* main.m */,
+				858B833F18CA111C00AB12DE /* listview-Prefix.pch */,
+				930F05DB22671AE300D269DC /* Swift-ObjC-Bridging-Header.h */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C9D78CB9FA014B6692562E34 /* TNSNativeSource */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = TNSNativeSource;
+			sourceTree = "<group>";
+		};
+		E070579D1B39A9D000214BF1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				670C59D99FBF40F39DEF1324 /* ANTON.jpg */,
+				85CF8604450F4A33B3E43CED /* Assets.xcassets */,
+				1949B86B2B13479BA7099E53 /* BONAP.jpg */,
+				3DBC802E89BE4D7DA571622C /* BSBEV.jpg */,
+				AB105A3D413248809215AF1D /* CENTC.jpg */,
+				1B42C793AF5F4B0B9F47ED72 /* FOLIG.jpg */,
+				79C851F3C6D84340B458E28B /* FRANK.jpg */,
+				59E1053861F14BC7998E03F0 /* FURIB.jpg */,
+				188694B3982F4902A610FA98 /* GODOS.jpg */,
+				32264778B77A484E95B62FB1 /* LAMAI.jpg */,
+				4827A52D48214253901EB5F1 /* LAZYK.jpg */,
+				3BE8859E52C5415C9BE623C1 /* LETSS.jpg */,
+				CB5892C35EEC47F3B75E0425 /* LaunchScreen.storyboard */,
+				45C8A7E46EFE42B595E7C399 /* MAGAA.jpg */,
+				C99085CB3C6441BE830BBD18 /* QUEDE.jpg */,
+				D852C00FB06749F885F717E2 /* QUEEN.jpg */,
+				CD6A971D135245C7991BFF6A /* QUICK.jpg */,
+				98DE5D26ED0944ECAF082A57 /* RANCH.jpg */,
+				93D7868C5CCC40EDA3744F85 /* RICSU.jpg */,
+				EDB80D7165B842BA8B898226 /* TOMSP.jpg */,
+				4AD25DC03FFD4E5391356774 /* TRAIH.jpg */,
+				A976810B6F5E4177B68E86CE /* WARTH.jpg */,
+				1444E9A45B334FBF955AA604 /* WELLI.jpg */,
+				947C7A91E9264799B8B1562E /* albania.png */,
+				567C9D8A988248F288700234 /* andorra.png */,
+				750262DD6C8B4CB1AD616002 /* australia.png */,
+				456731C5ADB14698A851A3C1 /* belgium.png */,
+				63C32A1B1C404811980482F3 /* breakfast1.jpg */,
+				7E643F4A0E8C495D9E876AD0 /* breakfast2.jpg */,
+				399DF232C125415AB367D08B /* breakfast3.jpg */,
+				2B2DA6795B78479F9D47F0AC /* breakfast4.jpg */,
+				9801FD1546804B20B806F418 /* breakfast5.jpg */,
+				34B786D7FA1D4ADA930E1044 /* breakfast6.jpg */,
+				46716902F94C45DA860629E9 /* build.xcconfig */,
+				6299081E080B43219AEACB9C /* bulgaria.png */,
+				47D338DF727E44E9AE4614C7 /* clear.png */,
+				4B7EBC4503DB430687AD9F77 /* cyprus.png */,
+				7F925D4D26A8493DB2F7EBA9 /* czech.png */,
+				7EE30D9D76C741859610DA91 /* denmark.png */,
+				53D3671988654F8988A92AFA /* dessert1.jpg */,
+				5046208165D3485EBBFB0CCD /* dessert2.jpg */,
+				0DE6374A1A034B37B8901BE1 /* dessert3.jpg */,
+				F3943930616940BA83313602 /* dessert4.jpg */,
+				92B659D25F194FFBAA4320E5 /* dessert5.jpg */,
+				D2BCBA248EFB40C8B0AE7E75 /* dessert6.jpg */,
+				12C1BC7AF3FC402FBD249086 /* dessert7.jpg */,
+				3D5B07F96F3E4E21AEF4636C /* dessert8.jpg */,
+				9107465BE417435989BDEBB1 /* finland.png */,
+				159632BBBBEA4279AD61AFE7 /* france.png */,
+				8AC41A37BFC84ABEAE1F1A98 /* germany.png */,
+				7DDF5B0AFB1D49B39DC6B95B /* greece.png */,
+				3606281EC215487CA288275A /* hungary.png */,
+				E077336A3E12453C9871904A /* ic_dataform_calendar.png */,
+				3170518C8BEB44268FDA2ADB /* ic_dataform_calendar@2x.png */,
+				EE74CA69E39D46019D845880 /* ic_dataform_calendar@3x.png */,
+				AA2F6B5D2B6F4FBF8207754D /* ic_dataform_guest.png */,
+				B3A4D603EB0E4219863FC9B7 /* ic_dataform_guest@2x.png */,
+				68B5079BABA343B2A6C6E544 /* ic_dataform_guest@3x.png */,
+				30BF7801B6FF4796888554D1 /* ic_dataform_phone.png */,
+				68A78FE5D4204C6197096248 /* ic_dataform_phone@2x.png */,
+				85E026FC91DC4A9095C06969 /* ic_dataform_phone@3x.png */,
+				A9542F4C1C044DDCA799E98E /* ic_dataform_table.png */,
+				538AEAF4523346ADB70DE33D /* ic_dataform_table@2x.png */,
+				CAC94DCF6CEF4DCB8D56C550 /* ic_dataform_table@3x.png */,
+				3D6F2E1948994E999E223AC3 /* ireland.png */,
+				64422727FA134A9088A31070 /* italy.png */,
+				B1557867AA6B475AAB6BDB51 /* japan.png */,
+				971500F895304F4AADB9EA78 /* latvia.png */,
+				1F214237276E42699008163D /* luxembourg.png */,
+				750217546308458BA6B69156 /* macedonia.png */,
+				C9D0F4C224554A71984F2C88 /* main1.jpg */,
+				B6A4183652C4442DAE7A599E /* main2.jpg */,
+				0DB739736F61469F81F89F62 /* main3.jpg */,
+				D32025CFA6A44571A8EE2C3D /* main4.jpg */,
+				2E0887E52C7F485E913B9C4B /* main5.jpg */,
+				9D109F97F9C0467780F0718D /* moldova.png */,
+				7E758A27D0A644B7A557B489 /* monaco.png */,
+				25F1F5E7215D42D08109BD0F /* netherlands.png */,
+				C047405FD6A04A31B69A07EF /* norway.png */,
+				111F9B9AA6D148F69E5FEB15 /* paleo1.jpg */,
+				FA0FA2135D424B83A376EE49 /* paleo2.jpg */,
+				F293363BFE7B45F29120C38A /* paleo3.jpg */,
+				4FCC655798FD46238B4656B3 /* paleo4.jpg */,
+				C1583E4DAB2240289E412EE0 /* paleo5.jpg */,
+				4B7EE82831EC4F3AA8EBD3A9 /* poland.png */,
+				257737AE0DF74AFF83D6DEEB /* reorder-icon.png */,
+				3F16E769C7334C8AB424B185 /* reorder-icon@2x.png */,
+				85EB1EA0072849418A7B2A4B /* reorder-icon@3x.png */,
+				70D30CCE49974EE9BD3935F2 /* romania.png */,
+				8B6359DC861640EFB7FE4937 /* russia.png */,
+				DF25E16C110F4BC5A66F1773 /* search.png */,
+				DAFA9E7B3CB14ACEB9196E4B /* slovakia.png */,
+				8AEBFBAA8C70476F9353FA47 /* slovenia.png */,
+				0026238462AC4F6190534A90 /* states.png */,
+				63E4144598A94EFFB6209DF2 /* sweden.png */,
+				2A7DDEB291AD42BF8C10108B /* turkey.png */,
+				10FD9CE12A6046FC8D6F94C6 /* ukraine.png */,
+				AA07F3F500D14E109BF1AEBA /* vatican.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		858B83EF18CA22B800AB12DE /* listview */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 858B843018CA22B800AB12DE /* Build configuration list for PBXNativeTarget "listview" */;
+			buildPhases = (
+				C4F248DA14A7649E5F36BE0C /* [CP] Check Pods Manifest.lock */,
+				C97FD7AC1ADE5369004DB2A4 /* NativeScript PreBuild */,
+				858B83F218CA22B800AB12DE /* Sources */,
+				CD62955B1BB2651D00AE3A93 /* NativeScript PreLink */,
+				858B83F418CA22B800AB12DE /* Frameworks */,
+				858B842C18CA22B800AB12DE /* Resources */,
+				85F5BDFC1A9363BE006B9701 /* Embed Frameworks */,
+				CD3EAD351B05FF060042DBFC /* NativeScript PostBuild */,
+				1AAD76068515E2E6579D30E9 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = listview;
+			productName = JDBridgeApp;
+			productReference = 858B843318CA22B800AB12DE /* listview.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		858B832618CA111C00AB12DE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TNS;
+				LastUpgradeCheck = 500;
+				ORGANIZATIONNAME = Telerik;
+			};
+			buildConfigurationList = 858B832918CA111C00AB12DE /* Build configuration list for PBXProject "listview" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				en,
+			);
+			mainGroup = 858B832518CA111C00AB12DE;
+			productRefGroup = 858B832F18CA111C00AB12DE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				858B83EF18CA22B800AB12DE /* listview */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		858B842C18CA22B800AB12DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD45EE7C18DC2D5800FB50C0 /* app in Resources */,
+				42C751EB232B769100186695 /* nativescript-pre-build in Resources */,
+				42C751EA232B769100186695 /* nativescript-post-build in Resources */,
+				858B842D18CA22B800AB12DE /* InfoPlist.strings in Resources */,
+				42C751E7232B769100186695 /* nativescript-pre-link in Resources */,
+				42C751E8232B769100186695 /* strip-dynamic-framework-architectures.sh in Resources */,
+				42C751E9232B769100186695 /* nsld.sh in Resources */,
+				27B6A6895F114B1F9EA50CA1 /* ANTON.jpg in Resources */,
+				BF28A6C95F184047BFDE93EC /* Assets.xcassets in Resources */,
+				E2754A450C954ACDA92FCD54 /* BONAP.jpg in Resources */,
+				62DB47E69B204B12AD822B0E /* BSBEV.jpg in Resources */,
+				1A5039A1B95C46DA83EC11D2 /* CENTC.jpg in Resources */,
+				0EEF83DDF674493880DCDE0E /* FOLIG.jpg in Resources */,
+				0728323284F54657A79DEDCE /* FRANK.jpg in Resources */,
+				F9D3059161A44876BEA6456B /* FURIB.jpg in Resources */,
+				43544BAF9B7F471E90067517 /* GODOS.jpg in Resources */,
+				9F31DC665ADC469B8305847F /* LAMAI.jpg in Resources */,
+				8E79F2A76D124A34A255F0C0 /* LAZYK.jpg in Resources */,
+				4E887D67851C44B9B10D6C08 /* LETSS.jpg in Resources */,
+				8FDE1A7510874E40B9E4DB78 /* LaunchScreen.storyboard in Resources */,
+				321174FBEBAE47CE884F137B /* MAGAA.jpg in Resources */,
+				C8E904CD2E714CCFA38A6DC3 /* QUEDE.jpg in Resources */,
+				2B68A60153DE415B82FD6922 /* QUEEN.jpg in Resources */,
+				CEB2576330FD4CF6B56E55B2 /* QUICK.jpg in Resources */,
+				62D6F23838004A4FAC536B91 /* RANCH.jpg in Resources */,
+				B58E48201887469F8E1C84DA /* RICSU.jpg in Resources */,
+				EF52086DAD6447F9A6DFF4C1 /* TOMSP.jpg in Resources */,
+				963C5718D6BA46A9A8D9A898 /* TRAIH.jpg in Resources */,
+				2E732D698E6F4085BADCBB50 /* WARTH.jpg in Resources */,
+				17ECDA9C9F3644FCB7ACDE79 /* WELLI.jpg in Resources */,
+				8382EF53168A401DBC2613A9 /* albania.png in Resources */,
+				022E88ED849445CDA495F16F /* andorra.png in Resources */,
+				6BFFB10DB6FD4DA692E9A417 /* australia.png in Resources */,
+				C922D5D222E14E018A4CA071 /* belgium.png in Resources */,
+				B8EAE6D996CA4C5AA96D08E4 /* breakfast1.jpg in Resources */,
+				14E41A43E1C346D78E47FAC5 /* breakfast2.jpg in Resources */,
+				17D9946C581D4ABEB85A9CAC /* breakfast3.jpg in Resources */,
+				213E97BFAE084BF6B58113D5 /* breakfast4.jpg in Resources */,
+				A68B6724568E42A9A4DF4EA4 /* breakfast5.jpg in Resources */,
+				88368BFA51A5451B94FE3635 /* breakfast6.jpg in Resources */,
+				98273EF49F4B41839DABB4D6 /* build.xcconfig in Resources */,
+				35B9265C54804401A78DD675 /* bulgaria.png in Resources */,
+				3171113F06AA4FDBB08C9CDC /* clear.png in Resources */,
+				2C3F7637511A4228BC477FCA /* cyprus.png in Resources */,
+				60E87D36FBF64D0788740561 /* czech.png in Resources */,
+				80836EE4213B4E509A295538 /* denmark.png in Resources */,
+				B116AD580DBA4FAFA13172FF /* dessert1.jpg in Resources */,
+				9CE430201CA74CE2816CE474 /* dessert2.jpg in Resources */,
+				7A9AE48718864CC98EF71E6A /* dessert3.jpg in Resources */,
+				33BB5EE3006D403882CD9643 /* dessert4.jpg in Resources */,
+				48A325CCEF704732B62CC33E /* dessert5.jpg in Resources */,
+				B719097104B84E98BD8CC74B /* dessert6.jpg in Resources */,
+				98F144EE170F488493D00346 /* dessert7.jpg in Resources */,
+				FFE05CF2B1B6463DA27B8341 /* dessert8.jpg in Resources */,
+				D60B391E80744CBE99D29A9E /* finland.png in Resources */,
+				1CFB75C931A249F19BF120D5 /* france.png in Resources */,
+				E4170AC35F594AB687E174C7 /* germany.png in Resources */,
+				052EF8B996AD49E099802F00 /* greece.png in Resources */,
+				817933FEA49842EF8B4CF7DE /* hungary.png in Resources */,
+				9CD5DA970C23440D961319ED /* ic_dataform_calendar.png in Resources */,
+				49309E7633AA426E9D2229AA /* ic_dataform_calendar@2x.png in Resources */,
+				4385E471DE5F478FA9C4A45B /* ic_dataform_calendar@3x.png in Resources */,
+				882E8DFBE4F24BBCA29A4502 /* ic_dataform_guest.png in Resources */,
+				1CF2E4A8F037425EB91DA34E /* ic_dataform_guest@2x.png in Resources */,
+				937FDC9BF9A742E1A400FBE7 /* ic_dataform_guest@3x.png in Resources */,
+				B43452D572E5431D8CC93BDA /* ic_dataform_phone.png in Resources */,
+				479B445DDEF14D718A6534E6 /* ic_dataform_phone@2x.png in Resources */,
+				CA09CCDFC64E452DBB12DC58 /* ic_dataform_phone@3x.png in Resources */,
+				853E637C48C3474FA7A62F75 /* ic_dataform_table.png in Resources */,
+				F5309F131944455E8C34385A /* ic_dataform_table@2x.png in Resources */,
+				B407BE7CB6CC4399BC03A414 /* ic_dataform_table@3x.png in Resources */,
+				6F566C29F9584BE49AB9EFEC /* ireland.png in Resources */,
+				8E19D0B42FBB429F96B4DDF3 /* italy.png in Resources */,
+				EE655AFC07F44C7D8BF9182B /* japan.png in Resources */,
+				FFC65A7385024F158AAAF525 /* latvia.png in Resources */,
+				2D0C7E09FFD342F49DD8C3BD /* luxembourg.png in Resources */,
+				1B02BE4812E24C83918F3B4C /* macedonia.png in Resources */,
+				124F0385F082432E9D12F7F1 /* main1.jpg in Resources */,
+				3DD522AECB574E38B2E85EE8 /* main2.jpg in Resources */,
+				D42A04AED39944A4B76E83FA /* main3.jpg in Resources */,
+				0388C7DA30A64E55897E46A9 /* main4.jpg in Resources */,
+				0EFE51DFA8C94B52991A7A58 /* main5.jpg in Resources */,
+				3227060432914D88B38CF055 /* moldova.png in Resources */,
+				A087472A4B2843E89A1F8FA2 /* monaco.png in Resources */,
+				6F9BFCD52043417D9BA7C6DD /* netherlands.png in Resources */,
+				FCB64FAC53F0457EB7C8BA38 /* norway.png in Resources */,
+				7F467742676F433C98C49ADC /* paleo1.jpg in Resources */,
+				11230F17EB7D4E0C8D4C7C4A /* paleo2.jpg in Resources */,
+				9E10719E712B4EA889197E99 /* paleo3.jpg in Resources */,
+				387B7FEEDBD4437B8597DE3E /* paleo4.jpg in Resources */,
+				A5F28990D380481A96E68052 /* paleo5.jpg in Resources */,
+				D4793D94C5F44FBDA89E88B4 /* poland.png in Resources */,
+				887F6AA6434F4B60AAB99722 /* reorder-icon.png in Resources */,
+				06FAEF61A44E474C8A15A06B /* reorder-icon@2x.png in Resources */,
+				FFB7DCE1011B4275BAE7A804 /* reorder-icon@3x.png in Resources */,
+				AA4185AC03AE43338A4702B3 /* romania.png in Resources */,
+				01FB93B4272E4B4887BED270 /* russia.png in Resources */,
+				05D72154B7CF4B31BFB4590C /* search.png in Resources */,
+				A43C12C9C1C3491F9F416423 /* slovakia.png in Resources */,
+				2A661ACB4C16402ABD1F2829 /* slovenia.png in Resources */,
+				B65493CD6F00400E83C64095 /* states.png in Resources */,
+				84FA7568E1B04F348EA24F42 /* sweden.png in Resources */,
+				A8BE881C50684313B342B37B /* turkey.png in Resources */,
+				E9A25F3CEDB64BD98204E9C6 /* ukraine.png in Resources */,
+				8B72B26721B1479B9AA32221 /* vatican.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1AAD76068515E2E6579D30E9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-listview/Pods-listview-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/MDFInternationalization/MDFInternationalization.framework",
+				"${BUILT_PRODUCTS_DIR}/MaterialComponents/MaterialComponents.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MDFInternationalization.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MaterialComponents.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-listview/Pods-listview-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C4F248DA14A7649E5F36BE0C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-listview-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C97FD7AC1ADE5369004DB2A4 /* NativeScript PreBuild */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "NativeScript PreBuild";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"$SRCROOT/internal/nativescript-pre-build\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CD3EAD351B05FF060042DBFC /* NativeScript PostBuild */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "NativeScript PostBuild";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"$SRCROOT/internal/nativescript-post-build\"";
+			showEnvVarsInLog = 0;
+		};
+		CD62955B1BB2651D00AE3A93 /* NativeScript PreLink */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "NativeScript PreLink";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"$SRCROOT/internal/nativescript-pre-link\"";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		858B83F218CA22B800AB12DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD62955D1BB2678900AE3A93 /* main.m in Sources */,
+				8AB7425B40424911843DB02B /* NSImageView.m in Sources */,
+				ECA6A268C5E7486FAF3506E7 /* NativeScriptEmbedder.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		858B833A18CA111C00AB12DE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				858B833B18CA111C00AB12DE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		858B835818CA111C00AB12DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				STRIP_SWIFT_SYMBOLS = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "$SRCROOT/internal/Swift-ObjC-Bridging-Header.h";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		858B835918CA111C00AB12DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				SDKROOT = iphoneos;
+				STRIP_SWIFT_SYMBOLS = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "$SRCROOT/internal/Swift-ObjC-Bridging-Header.h";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		858B843118CA22B800AB12DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CDD59A261BB43B5D00EC2671 /* build-debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../node_modules/nativescript-ui-listview/platforms/ios\"",
+					"\"$(SRCROOT)/../../node_modules/nativescript-ui-core/platforms/ios\"",
+					"\"$(SRCROOT)/../../node_modules/tns-core-modules-widgets/platforms/ios\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "listview/listview-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$SRCROOT/internal/Swift-Modules\"",
+					"\"$(SRCROOT)/internal\"",
+					"\"$(SRCROOT)/../../app/App_Resources/iOS/src\"",
+					"\"$(SRCROOT)/../../node_modules/nativescript-image/platforms/ios/src\"",
+					"\"$(SRCROOT)/../../node_modules/@nativescript/core/platforms/ios/src\"",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/listview/listview-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.nativescript.demo;
+				PRODUCT_NAME = listview;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		858B843218CA22B800AB12DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CDD59A271BB43B5D00EC2671 /* build-release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../node_modules/nativescript-ui-listview/platforms/ios\"",
+					"\"$(SRCROOT)/../../node_modules/nativescript-ui-core/platforms/ios\"",
+					"\"$(SRCROOT)/../../node_modules/tns-core-modules-widgets/platforms/ios\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "listview/listview-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$SRCROOT/internal/Swift-Modules",
+					"$(SRCROOT)/internal",
+					"\"$(SRCROOT)/../../app/App_Resources/iOS/src\"",
+					"\"$(SRCROOT)/../../node_modules/nativescript-image/platforms/ios/src\"",
+					"\"$(SRCROOT)/../../node_modules/@nativescript/core/platforms/ios/src\"",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/listview/listview-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.nativescript.demo;
+				PRODUCT_NAME = listview;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		858B832918CA111C00AB12DE /* Build configuration list for PBXProject "listview" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				858B835818CA111C00AB12DE /* Debug */,
+				858B835918CA111C00AB12DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		858B843018CA22B800AB12DE /* Build configuration list for PBXNativeTarget "listview" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				858B843118CA22B800AB12DE /* Debug */,
+				858B843218CA22B800AB12DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 858B832618CA111C00AB12DE /* Project object */;
+}

@@ -1,0 +1,19 @@
+use_frameworks!
+
+target "listview" do
+# Begin Podfile - /Users/artnavsegda/src/nativescript-ui-samples-angular/listview/node_modules/nativescript-image/platforms/ios/Podfile
+pod 'SDWebImage', '>= 5.0.1'
+
+# End Podfile
+
+# NativeScriptPlatformSection /Users/artnavsegda/src/nativescript-ui-samples-angular/listview/node_modules/@nativescript/core/platforms/ios/Podfile with 9.0
+platform :ios, '9.0'
+# End NativeScriptPlatformSection
+
+# Begin Podfile - /Users/artnavsegda/src/nativescript-ui-samples-angular/listview/node_modules/@nativescript/core/platforms/ios/Podfile
+# platform :ios, '9.0'
+use_frameworks!
+
+pod 'MaterialComponents/Tabs', '~> 94.5'
+# End Podfile
+end
